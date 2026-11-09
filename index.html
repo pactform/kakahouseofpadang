@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaka's House of Padang | Authentic Padang Cuisine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="nav-inner">
+    <div class="brand">
+      <a href="#home">
+        <img src="Kaka's Main Logo - H1.png" alt="Kaka's House of Padang Logo" class="brand-logo-img">
+      </a>
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="active">Home</a>
+      <a href="#favourites">Favourites</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#catering">Catering</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="https://wa.me/6581234567" target="_blank" class="btn btn-gold header-wa"><i class="fa-brands fa-whatsapp"></i> Order via WhatsApp</a>
+    <button class="burger" id="burgerBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="wrap">
+    <div class="hero-copy reveal in">
+      <h1>Authentic Padang<br>Cuisine,<br><span class="gold">Made Like Home.</span> <i class="fa-solid fa-heart" style="color:#c9483d; font-size:1.9rem;"></i></h1>
+      <p class="lead">Traditional Minangkabau recipes passed down through three generations. Made with love, served for family and friends.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-gold"><i class="fa-solid fa-book-open"></i> View Our Menu</a>
+        <a href="#catering" class="btn btn-outline"><i class="fa-solid fa-truck"></i> Order Catering</a>
+      </div>
+      <div class="feature-row">
+        <div class="f-item"><i class="fa-solid fa-people-roof"></i><span>Family Recipes<br>3 Generations</span></div>
+        <div class="f-item"><i class="fa-solid fa-pepper-hot"></i><span>Rich in Flavour<br>Authentic Spices</span></div>
+        <div class="f-item"><i class="fa-solid fa-heart"></i><span>Made with Love<br>For Every Meal</span></div>
+        <div class="f-item"><i class="fa-solid fa-location-dot"></i><span>Proudly in<br>Singapore</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="favourites" id="favourites">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2><i class="fa-solid fa-star"></i> Our Kaka's Favourites <i class="fa-solid fa-star"></i></h2>
+    </div>
+    <div class="fav-grid">
+      <div class="fav-card reveal">
+        <div class="fav-photo photo-ph ph-rendang">
+          <span class="fav-badge badge-best"><i class="fa-solid fa-crown"></i> Best Seller</span>
+          <button class="fav-heart" data-liked="false"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="fav-body">
+          <h3>Rendang Daging</h3>
+          <p>Slow - cooked beef in rich coconut milk &amp; Spices.</p>
+        </div>
+      </div>
+      <div class="fav-card reveal" style="transition-delay:.08s">
+        <div class="fav-photo photo-ph ph-ayam">
+          <span class="fav-badge badge-spicy"><i class="fa-solid fa-fire"></i> Spicy Favourite</span>
+          <button class="fav-heart" data-liked="false"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="fav-body">
+          <h3>Ayam Balado</h3>
+          <p>Crispy fried chicken coated in our signature Balado chili sauce.</p>
+        </div>
+      </div>
+      <div class="fav-card reveal" style="transition-delay:.16s">
+        <div class="fav-photo photo-ph ph-ikan">
+          <span class="fav-badge badge-fresh"><i class="fa-solid fa-fish"></i> Fresh from Grill</span>
+          <button class="fav-heart" data-liked="false"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="fav-body">
+          <h3>Ikan Bakar</h3>
+          <p>Grilled fish with our special sambal hijau.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="about">
+  <div class="wrap">
+    <div class="reveal">
+      <h2>Our Story <i class="fa-solid fa-heart" style="color:#c9483d;"></i></h2>
+      <span class="gold-sub">From our family recipe, to your family table.</span>
+      <p>What started as a small home kitchen in Padang has grown into Kaka's House of Padang in Singapore. We continue to cook the same traditional recipes with the same love, bringing you the true taste of Minang, like home.</p>
+      <a href="#contact" class="btn btn-gold">Learn More About Us <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="collage reveal-scale">
+      <div class="photo-ph-wrap c-a"><div class="photo-ph ph-story1"></div></div>
+      <div class="photo-ph-wrap c-b"><div class="photo-ph ph-story2"></div></div>
+      <div class="photo-ph-wrap c-c"><div class="photo-ph ph-story3"></div></div>
+      <div class="collage-note">Recipes passed down<br>through 3 generations <i class="fa-solid fa-heart" style="color:#c9483d;"></i></div>
+    </div>
+  </div>
+</section>
+
+<section class="menu-section" id="menu">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2><i class="fa-solid fa-utensils"></i> Our Menu <i class="fa-solid fa-utensils"></i></h2>
+    </div>
+    
+    <div class="menu-tabs reveal">
+      <button class="menu-tab active" data-cat="breakfast"><i class="fa-solid fa-mug-hot"></i>Breakfast</button>
+      <button class="menu-tab" data-cat="padang"><i class="fa-solid fa-bowl-rice"></i>Padang</button>
+      <button class="menu-tab" data-cat="chicken"><i class="fa-solid fa-kiwi-bird"></i>Roasted Chicken</button>
+      <button class="menu-tab" data-cat="vegetables"><i class="fa-solid fa-leaf"></i>Vegetables</button>
+      <button class="menu-tab" data-cat="dinner"><i class="fa-solid fa-fish"></i>Dinner</button>
+      <button class="menu-tab" data-cat="snacks"><i class="fa-solid fa-cookie-bite"></i>Snacks</button>
+      <button class="menu-tab" data-cat="beverages"><i class="fa-solid fa-mug-saucer"></i>Beverages</button>
+    </div>
+
+    <div id="menuContainer">
+      
+      <!-- 1. BREAKFAST -->
+      <div class="menu-group" data-cat="breakfast">
+        <h3 class="menu-cat-title"><i class="fa-solid fa-mug-hot"></i> Breakfast <span style="font-size: 0.7em; opacity: 0.8; margin-left: 8px;">(8:30 AM)</span></h3>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-1"></div><div class="menu-card-body"><div><h4>Lontong Sayur</h4></div><span class="menu-price">$5</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-2"></div><div class="menu-card-body"><div><h4>Bihun Goreng</h4></div><span class="menu-price">$4</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-3"></div><div class="menu-card-body"><div><h4>Soto Ayam</h4></div><span class="menu-price">$6</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-4"></div><div class="menu-card-body"><div><h4>Mee Goreng</h4></div><span class="menu-price">$4</span></div></div>
+        </div>
+      </div>
+
+      <!-- 2. PADANG -->
+      <div class="menu-group hide" data-cat="padang">
+        <h3 class="menu-cat-title"><i class="fa-solid fa-bowl-rice"></i> Lunch - Padang <span style="font-size: 0.7em; opacity: 0.8; margin-left: 8px;">(10:30 AM)</span></h3>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-5"></div><div class="menu-card-body"><div><h4>Beef / Mutton Rendang</h4></div><span class="menu-price">$6.50 / $7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-6"></div><div class="menu-card-body"><div><h4>Ayam Balado</h4></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-7"></div><div class="menu-card-body"><div><h4>Gulai Kambing</h4></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-8"></div><div class="menu-card-body"><div><h4>Ayam Sambal Hijau</h4></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-9"></div><div class="menu-card-body"><div><h4>Dendeng Balado</h4></div><span class="menu-price">$6</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-10"></div><div class="menu-card-body"><div><h4>Ayam Penyet</h4></div><span class="menu-price">$10</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-11"></div><div class="menu-card-body"><div><h4>Gulai Babat</h4></div><span class="menu-price">$5</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-12"></div><div class="menu-card-body"><div><h4>Bawal</h4></div><span class="menu-price">$11</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-13"></div><div class="menu-card-body"><div><h4>Gulai Ayam</h4></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-14"></div><div class="menu-card-body"><div><h4>Udang / 1 pcs</h4></div><span class="menu-price">$5</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-15"></div><div class="menu-card-body"><div><h4>Gulai Ayam Chili Padi</h4></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-16"></div><div class="menu-card-body"><div><h4>Sotong</h4></div><span class="menu-price">$9</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-17"></div><div class="menu-card-body"><div><h4>Ayam Balado Merah</h4></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-18"></div><div class="menu-card-body"><div><h4>Ikan Balado</h4></div><span class="menu-price">$5.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-19"></div><div class="menu-card-body"><div><h4>Ayam Rempah</h4></div><span class="menu-price">$8</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-20"></div><div class="menu-card-body"><div><h4>Ikan Stingray</h4></div><span class="menu-price">$9</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-21"></div><div class="menu-card-body"><div><h4>Ayam Goreng Serundeng</h4></div><span class="menu-price">$7</span></div></div>
+        </div>
+      </div>
+
+      <!-- 3. ROASTED CHICKEN -->
+      <div class="menu-group hide" data-cat="chicken">
+        <h3 class="menu-cat-title"><i class="fa-solid fa-kiwi-bird"></i> Roasted Chicken</h3>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-22"></div><div class="menu-card-body"><div><h4>Chicken Cutlet</h4><p>Ayam Cutlet (Sauce: Lemon/Mayonnaise/Thai)</p></div><span class="menu-price">$6</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-23"></div><div class="menu-card-body"><div><h4>Chicken Rice</h4><p>Nasi Ayam</p></div><span class="menu-price">$5</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-24"></div><div class="menu-card-body"><div><h4>Chicken Drumsticks</h4><p>Paha Ayam</p></div><span class="menu-price">$6</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-25"></div><div class="menu-card-body"><div><h4>Chicken for 1 pax</h4><p>Paket Ayam 1 Orang</p></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-26"></div><div class="menu-card-body"><div><h4>Chicken for 2 pax</h4><p>Paket Ayam 2 Orang</p></div><span class="menu-price">$12</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-27"></div><div class="menu-card-body"><div><h4>Half Chicken</h4><p>Setengah Ayam</p></div><span class="menu-price">$18</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-28"></div><div class="menu-card-body"><div><h4>Whole Chicken</h4><p>Satu Ekor Ayam</p></div><span class="menu-price">$36</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-29"></div><div class="menu-card-body"><div><h4>Set Meal</h4><p>Paket Nasi Ayam</p></div><span class="menu-price">$8</span></div></div>
+        </div>
+        
+        <h4 class="menu-subhead-title">Add-ons</h4>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-30"></div><div class="menu-card-body"><div><h4>Braised Egg</h4><p>Telur Kecap</p></div><span class="menu-price">$1</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-31"></div><div class="menu-card-body"><div><h4>Veggies</h4><p>Sayur</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-32"></div><div class="menu-card-body"><div><h4>Braised Tau Kuah</h4><p>Tahu Kuah Kecap</p></div><span class="menu-price">$1</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-33"></div><div class="menu-card-body"><div><h4>Plain / Fragrant Rice</h4></div><span class="menu-price">$1</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-34"></div><div class="menu-card-body"><div><h4>Crispy Tofu with Thai Sauce</h4><p>Tahu Saus Thailand</p></div><span class="menu-price">$6</span></div></div>
+        </div>
+      </div>
+
+      <!-- 4. VEGETABLES -->
+      <div class="menu-group hide" data-cat="vegetables">
+        <h3 class="menu-cat-title"><i class="fa-solid fa-leaf"></i> Vegetables <span style="font-size: 0.7em; opacity: 0.8; margin-left: 8px;">(All Vegetables $3)</span></h3>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-35"></div><div class="menu-card-body"><div><h4>Gulai Daun Ubi</h4><p>Cassava Leaf Curry</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-36"></div><div class="menu-card-body"><div><h4>Terong Balado</h4><p>Eggplant with Chili Sambal</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-37"></div><div class="menu-card-body"><div><h4>Gulai Nangka</h4><p>Young Jackfruit Curry</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-38"></div><div class="menu-card-body"><div><h4>Sayur Asem</h4><p>Tamarind Vegetable Soup</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-39"></div><div class="menu-card-body"><div><h4>Gulai Lodeh</h4><p>Vegetable Coconut Curry</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-40"></div><div class="menu-card-body"><div><h4>Urap</h4><p>Mixed Vegetables with Coconut Dressing</p></div><span class="menu-price">$3</span></div></div>
+        </div>
+
+        <h4 class="menu-subhead-title">Side Dishes</h4>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-41"></div><div class="menu-card-body"><div><h4>Acar Bening</h4><p>Pickled Vegetables</p></div><span class="menu-price">$1.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-42"></div><div class="menu-card-body"><div><h4>Sambal Goreng</h4><p>Spicy Fried Sambal Mix</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-43"></div><div class="menu-card-body"><div><h4>Fried Chicken Wings</h4><p>Crispy Chicken Wing</p></div><span class="menu-price">$2</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-44"></div><div class="menu-card-body"><div><h4>Sambal Petai</h4><p>Stink Beans with Sambal</p></div><span class="menu-price">$4</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-45"></div><div class="menu-card-body"><div><h4>Ota-ota</h4><p>Grilled Fish Paste</p></div><span class="menu-price">$3.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-46"></div><div class="menu-card-body"><div><h4>Perkedel</h4><p>Potato Fritter</p></div><span class="menu-price">$2</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-47"></div><div class="menu-card-body"><div><h4>Gulai Siput</h4><p>Snail Curry</p></div><span class="menu-price">$7</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-48"></div><div class="menu-card-body"><div><h4>Tempe Orek</h4><p>Sweet Spicy Tempeh</p></div><span class="menu-price">$2</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-49"></div><div class="menu-card-body"><div><h4>Empedal Sate / 1 skewer</h4><p>Chicken Gizzard Skewer</p></div><span class="menu-price">$2</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-50"></div><div class="menu-card-body"><div><h4>Hati Ayam Sate / 1 skewer</h4><p>Chicken Liver Skewer</p></div><span class="menu-price">$2</span></div></div>
+        </div>
+
+        <h4 class="menu-subhead-title">Egg Dishes</h4>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-51"></div><div class="menu-card-body"><div><h4>Telur Dadar</h4><p>Thick Egg Omelette</p></div><span class="menu-price">$2</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-52"></div><div class="menu-card-body"><div><h4>Telur Balado</h4></div><span class="menu-price">$1.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-53"></div><div class="menu-card-body"><div><h4>Telur Goreng</h4><p>Sunny Side Up / Fried Egg</p></div><span class="menu-price">$1</span></div></div>
+        </div>
+      </div>
+
+      <!-- 5. DINNER -->
+      <div class="menu-group hide" data-cat="dinner">
+        <h3 class="menu-cat-title"><i class="fa-solid fa-fish"></i> Dinner <span style="font-size: 0.7em; opacity: 0.8; margin-left: 8px;">(5 - 9 PM)</span></h3>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-54"></div><div class="menu-card-body"><div><h4>Kepala Ikan Asam Pedas</h4><p>Spicy &amp; Sour Fish Head Curry</p></div><span class="menu-price">$36</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-55"></div><div class="menu-card-body"><div><h4>Nasi Goreng Petai Bilis</h4><p>Fried Rice with Anchovies &amp; Petai</p></div><span class="menu-price">$9.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-56"></div><div class="menu-card-body"><div><h4>Nasi Goreng Kampung</h4><p>Village Style Fried Rice</p></div><span class="menu-price">$9.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-57"></div><div class="menu-card-body"><div><h4>Kwetiau Goreng</h4><p>Fried Flat Rice Noodles</p></div><span class="menu-price">$9.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-58"></div><div class="menu-card-body"><div><h4>Bihun Goreng</h4><p>Fried Rice Vermicelli</p></div><span class="menu-price">$9.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-59"></div><div class="menu-card-body"><div><h4>Ayam Penyet</h4><p>Smashed Fried Chicken with Sambal</p></div><span class="menu-price">$10</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-60"></div><div class="menu-card-body"><div><h4>Ayam Bakar</h4><p>Grilled Chicken</p></div><span class="menu-price">$10.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-61"></div><div class="menu-card-body"><div><h4>Honey Garlic Wings (set of 3)</h4><p>Sayap Ayam Madu Bawang</p></div><span class="menu-price">$7.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-62"></div><div class="menu-card-body"><div><h4>BBQ Wings (set of 3)</h4><p>Sayap Ayam BBQ</p></div><span class="menu-price">$7.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-63"></div><div class="menu-card-body"><div><h4>Teriyaki Wings (set of 3)</h4><p>Sayap Ayam Teriyaki</p></div><span class="menu-price">$7.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-64"></div><div class="menu-card-body"><div><h4>Lemon Pepper Wings (set of 3)</h4><p>Sayap Ayam Lemon Pepper</p></div><span class="menu-price">$7.50</span></div></div>
+        </div>
+      </div>
+
+      <!-- 6. SNACKS -->
+      <div class="menu-group hide" data-cat="snacks">
+        <h3 class="menu-cat-title"><i class="fa-solid fa-cookie-bite"></i> Snacks</h3>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-65"></div><div class="menu-card-body"><div><h4>Popiah / 3 pcs</h4><p>Fresh Spring Rolls</p></div><span class="menu-price">$3</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-66"></div><div class="menu-card-body"><div><h4>Banana Cheese</h4><p>Pisang Keju</p></div><span class="menu-price">$4</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-67"></div><div class="menu-card-body"><div><h4>Sweet Potato Cheese</h4></div><span class="menu-price">$4</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-68"></div><div class="menu-card-body"><div><h4>Cassava Cheese</h4><p>Singkong Keju</p></div><span class="menu-price">$4</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-69"></div><div class="menu-card-body"><div><h4>Chicken Curry Puff / 1 pcs</h4></div><span class="menu-price">$2.20</span></div></div>
+        </div>
+      </div>
+
+      <!-- 7. BEVERAGES -->
+      <div class="menu-group hide" data-cat="beverages">
+        <h3 class="menu-cat-title"><i class="fa-solid fa-mug-saucer"></i> Beverages <span style="font-size: 0.7em; opacity: 0.8; margin-left: 8px;">(Hot/Cold)</span></h3>
+        <div class="menu-grid">
+          <div class="menu-card"><div class="photo-ph ph-item-70"></div><div class="menu-card-body"><div><h4>Soft Drink / Can Drink</h4><p>Minuman Ringan</p></div><span class="menu-price">$2</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-71"></div><div class="menu-card-body"><div><h4>Mineral Water</h4><p>Air Mineral</p></div><span class="menu-price">$1.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-72"></div><div class="menu-card-body"><div><h4>Coffee / Teh</h4><p>Coffee / Tea</p></div><span class="menu-price">$1.90</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-73"></div><div class="menu-card-body"><div><h4>Coffee / Teh C</h4><p>Coffee / Tea with Milk</p></div><span class="menu-price">$2</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-74"></div><div class="menu-card-body"><div><h4>Coffee / Teh C Kosong</h4><p>Coffee/Tea with Evaporated Milk, No Sugar</p></div><span class="menu-price">$1.90</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-75"></div><div class="menu-card-body"><div><h4>Coffee / Teh O</h4><p>Black Coffee / Tea</p></div><span class="menu-price">$1.80</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-76"></div><div class="menu-card-body"><div><h4>Coffee / Teh O Kosong</h4><p>Black Coffee / Tea</p></div><span class="menu-price">$1.70</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-77"></div><div class="menu-card-body"><div><h4>Es Nanas w/ Longan</h4><p>Iced Pineapple with Longan</p></div><span class="menu-price">$3.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-78"></div><div class="menu-card-body"><div><h4>Es Kuwut</h4><p>Balinese Coconut Citrus Drink</p></div><span class="menu-price">$3.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-79"></div><div class="menu-card-body"><div><h4>Es Cincau w/ Longan</h4><p>Grass Jelly with Longan</p></div><span class="menu-price">$3.50</span></div></div>
+          <div class="menu-card"><div class="photo-ph ph-item-80"></div><div class="menu-card-body"><div><h4>Es Jeruk w/ Honey</h4><p>Honey Citrus Drink</p></div><span class="menu-price">$3</span></div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ CATERING ============ -->
+<section class="catering" id="catering">
+  <div class="wrap">
+    <div class="reveal">
+      <h2>Catering for<br>Every Occasion <i class="fa-solid fa-heart" style="color:#c9483d;"></i></h2>
+      <p>Birthday celebrations, office lunches, weddings and more. We bring the best of Minang right to your event.</p>
+      <a href="#contact" class="btn btn-gold">Explore Catering Options <i class="fa-solid fa-truck"></i></a>
+    </div>
+    <div class="catering-photo photo-ph ph-catering reveal-scale" style="transition-delay:.1s"></div>
+    <div class="catering-notes reveal" style="transition-delay:.2s">
+      <div class="c-item"><i class="fa-solid fa-clipboard-list"></i><div><h5>Custom Menus</h5><span>Tailored to your needs</span></div></div>
+      <div class="c-item"><i class="fa-solid fa-users"></i><div><h5>Many Portions</h5><span>Perfect for any size gathering</span></div></div>
+      <div class="c-item"><i class="fa-solid fa-clock"></i><div><h5>On-time Delivery</h5><span>Free delivery* (T&amp;Cs apply)</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery-section" id="gallery">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>Life at Kaka's House <i class="fa-solid fa-heart" style="color:#c9483d;"></i></h2>
+    </div>
+    <div class="carousel-wrap reveal">
+      <button class="carousel-arrow left" id="galLeft"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="carousel-track" id="galTrack">
+        <div class="g-item photo-ph ph-g1"></div>
+        <div class="g-item photo-ph ph-g2"></div>
+        <div class="g-item photo-ph ph-g3"></div>
+        <div class="g-item photo-ph ph-g4"></div>
+        <div class="g-item store ph-store">
+          <span>Kaka's House<br>of Padang</span>
+        </div>
+      </div>
+      <button class="carousel-arrow right" id="galRight"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <a href="#gallery" class="btn btn-outline-dark" id="viewMorePhotosBtn"><i class="fa-solid fa-images"></i> View More Photos</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="reveal">
+        <h3>Visit Us!</h3>
+        <div class="visit-item"><i class="fa-solid fa-location-dot"></i><div>123 Jalan Maju, #01-01<br>Singapore 123456</div></div>
+        <div class="visit-item"><i class="fa-solid fa-phone"></i><div>+65 8123 4567</div></div>
+        <div class="visit-item"><i class="fa-solid fa-envelope"></i><div>hello@kakashouseofpadang.com</div></div>
+        <div class="visit-item"><i class="fa-solid fa-clock"></i><div>Mon – Sun: 11AM – 10PM</div></div>
+        <div class="visit-item"><i class="fa-brands fa-instagram"></i><div>@kakashouseofpadang</div></div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="reveal" style="transition-delay:.1s">
+        <div class="map-box">
+          <div class="map-fake">
+            <div class="road h"></div>
+            <span class="mrt-label a">Bendemeer<br>MRT</span>
+            <span class="mrt-label b">Lavender<br>MRT</span>
+            <div class="map-pin"><i class="fa-solid fa-location-dot"></i><span>Kaka's House of Padang</span></div>
+            <a href="https://maps.google.com/?q=Kaka's+House+of+Padang+Singapore" target="_blank" class="btn btn-gold btn-sm map-directions-btn"><i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="reveal" style="transition-delay:.2s">
+        <div class="thanks-card">
+          <h4>Terima kasih &amp;<br>sampai jumpa!</h4>
+          <span class="script">– From Our Family to Yours –</span>
+          <svg class="avatar" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="48" fill="#f0dcae"/>
+            <path d="M20 78 Q50 100 80 78 L80 95 L20 95 Z" fill="#2d5a45"/>
+            <circle cx="50" cy="46" r="26" fill="#f4c99a"/>
+            <path d="M24 44 Q26 14 50 14 Q74 14 76 44 Q64 32 50 32 Q36 32 24 44Z" fill="#3a2a1c"/>
+            <circle cx="50" cy="20" r="7" fill="#3a2a1c"/>
+            <circle cx="40" cy="48" r="2.6" fill="#2a2015"/>
+            <circle cx="60" cy="48" r="2.6" fill="#2a2015"/>
+            <circle cx="38" cy="58" r="4" fill="#e8926f" opacity=".6"/>
+            <circle cx="62" cy="58" r="4" fill="#e8926f" opacity=".6"/>
+            <path d="M42 62 Q50 68 58 62" stroke="#7a4530" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Kaka's House of Padang. All rights reserved.</span>
+      <div class="links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <a href="#home" class="back-top">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </div>
+</footer>
+<a href="https://wa.me/6581234567" target="_blank" class="wa-float" aria-label="Order via WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<div class="toast" id="toast"></div>
+
+<script>
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 12);
+  });
+
+  const burger = document.getElementById('burgerBtn');
+  const nav = document.getElementById('mainNav');
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('open');
+    nav.classList.toggle('open');
+  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    burger.classList.remove('open');
+    nav.classList.remove('open');
+  }));
+
+  const sections = ['home','favourites','about','menu','catering','gallery','contact'].map(id=>document.getElementById(id)).filter(Boolean);
+  const navLinks = document.querySelectorAll('.main-nav a');
+  const sectionToLink = {home:'Home', favourites:'Favourites', about:'About Us', menu:'Menu', catering:'Catering', gallery:'Gallery', contact:'Contact'};
+  window.addEventListener('scroll', () => {
+    let current = sections[0].id;
+    sections.forEach(sec => { if (window.scrollY >= sec.offsetTop - 140) current = sec.id; });
+    navLinks.forEach(link => {
+      const label = sectionToLink[current];
+      link.classList.toggle('active', label && link.textContent.trim() === label);
+    });
+  });
+
+  const revealEls = document.querySelectorAll('.reveal, .reveal-scale');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('in'); });
+  }, {threshold:.15});
+  revealEls.forEach(el => io.observe(el));
+
+  document.querySelectorAll('.fav-heart').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const liked = btn.getAttribute('data-liked') === 'true';
+      btn.setAttribute('data-liked', String(!liked));
+      const icon = btn.querySelector('i');
+      icon.classList.toggle('fa-regular', liked);
+      icon.classList.toggle('fa-solid', !liked);
+      showToast(!liked ? 'Added to your favourites ♥' : 'Removed from favourites');
+    });
+  });
+
+  // Filter kategori menu interaktif
+  const tabs = document.querySelectorAll('.menu-tab');
+  const groups = document.querySelectorAll('.menu-group');
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const cat = tab.getAttribute('data-cat');
+      
+      groups.forEach(group => {
+        const show = group.getAttribute('data-cat') === cat;
+        group.classList.toggle('hide', !show);
+      });
+    });
+  });
+
+  const track = document.getElementById('galTrack');
+  document.getElementById('galRight').addEventListener('click', () => track.scrollBy({left: 280, behavior:'smooth'}));
+  document.getElementById('galLeft').addEventListener('click', () => track.scrollBy({left: -280, behavior:'smooth'}));
+
+  let toastTimer;
+  function showToast(msg){
+    const toast = document.getElementById('toast');
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 2200);
+  }
+
+  document.getElementById('viewMorePhotosBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    showToast('More photos coming soon — follow @kakashouseofpadang!');
+  });
+</script>
+</body>
+</html>
